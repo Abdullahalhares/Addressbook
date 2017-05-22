@@ -1,0 +1,94 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+.navbar-brand{
+    color:white;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+div.container{
+    /*background-color:rgb(128, 128, 128);*/
+   
+    width:auto;
+    height: auto;
+    border:10px;
+    margin: -30px 0px 0px 0px;
+    padding: 30px;
+    text-align: center;
+
+}
+div.reg{
+    background-color: #f2f2f2;
+    width:350px;
+    height:500px;
+    position:relative;
+    border:5px ;
+    
+    padding: 20px;
+    margin: 30px 200px 200px 250px;
+    text-align: center;
+}
+input[type=text].reg_in{
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    font-size:20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=password].reg_in{
+     width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit].reg_in {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size:20px;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit].reg_in:hover {
+    background-color: #45a049;
+}
+.error{
+    color:red;
+}
